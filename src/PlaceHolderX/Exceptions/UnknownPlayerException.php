@@ -8,6 +8,7 @@ class UnknownPlayerException extends \Exception
 
     /**
      * UnknownPlayerException constructor.
+     * @param string $username
      */
     public function __construct($username)
     {

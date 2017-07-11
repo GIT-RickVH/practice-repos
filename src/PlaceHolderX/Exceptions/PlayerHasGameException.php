@@ -11,6 +11,8 @@ class PlayerHasGameException extends \Exception
 
     /**
      * PlayerHasGameException constructor.
+     * @param Player $player
+     * @param Game $game
      */
     public function __construct(Player $player, Game $game)
     {
